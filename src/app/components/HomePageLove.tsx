@@ -257,7 +257,7 @@ const HomePageLove = ({
         {/* Bottom Message */}
         <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-center">
           <p className="text-lg text-gray-600 italic font-light">
-            "Every love story is beautiful, but ours is my favorite" 💕
+            &ldquo;Every love story is beautiful, but ours is my favorite &rdquo; 💕
           </p>
         </div>
       </div>
