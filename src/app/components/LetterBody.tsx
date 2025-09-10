@@ -2,26 +2,32 @@ import React from 'react'
 
 const LetterBody = () => {
   return (
-    <div>
-
-        <div className="text-gray-700 leading-relaxed space-y-4 font-serif italic">
+    <>
+    <div className="text-gray-700 leading-relaxed space-y-4 font-serif text-lg">
   <p>
-    I want to offer my sincerest apologies for the ways I have let you down.
+    Happy 2nd Love Anniversary, my sunshine! Two years ago, destiny smiled on me when our stories met.
+    Every day since, you have brought laughter, color, and magic into my world.
   </p>
   <p>
-    Please visit{' '}
-    <a href="/memories" className="text-blue-600 underline">
-      our memories
-    </a>{' '}
-    for more info.
+    As we celebrate these two incredible years, my heart feels full thinking about our <span className="font-semibold text-pink-600">journey</span> so far—the adventures, lessons, and all the new dreams we've found together.
+    Want to relive our special moments?  
+    <a
+      href="/memories"
+      className="text-pink-700 underline hover:text-pink-500 transition font-bold ml-1"
+    >
+      Click here to see our memories 💕
+    </a>
   </p>
   <p>
-    I want not being there when you needed me most and for the pain I caused due to my thoughtlessness.
+    Let's keep writing our beautiful story, one unforgettable chapter at a time.
   </p>
-  {/* Add more paragraphs as you like */}
+  <p>
+    Forever yours,<br />
+    Snugliee
+  </p>
 </div>
 
-    </div>
+    </>
   )
 }
 

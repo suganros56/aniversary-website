@@ -3,6 +3,7 @@ import Timeline from "../components/Timeline";
 import RomanticTimeline from "../components/RomanticTimeline";
 import HeartsBackground from "../components/HeartsBackground";
 import DeluxeRomanticTimeline from "../components/DeluxeRomanticTimeline";
+import Gallery from "../components/GalleryComponent";
 
 export default function MemoriesPage() {
   return (
@@ -12,14 +13,15 @@ export default function MemoriesPage() {
         <h1 className="text-5xl md:text-6xl font-extrabold text-pink-600 text-center mb-8 drop-shadow-lg">
         Our Story So Far
       </h1>
-        <RomanticTimeline />
+        {/* <RomanticTimeline /> */}
+        <Gallery/>
       </div>
       <>
       {/* <><DeluxeRomanticTimeline/></> */}
       </>
       <div className="mt-12">
         <Link
-          href="/gallery"
+          href="/magic"
           className="px-8 py-3 bg-pink-600 hover:bg-pink-700 transition text-white text-lg font-bold rounded-full shadow animate-bounce"
         >
           Next: Best Moments →
