@@ -1,8 +1,4 @@
 import Link from "next/link";
-import Timeline from "../components/Timeline";
-import RomanticTimeline from "../components/RomanticTimeline";
-import HeartsBackground from "../components/HeartsBackground";
-import DeluxeRomanticTimeline from "../components/DeluxeRomanticTimeline";
 import RingMoment from "../components/MagicMoments";
 
 export default function MemoriesPage() {

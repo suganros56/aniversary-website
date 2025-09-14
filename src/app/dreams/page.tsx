@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Dreams from "../components/Dreams";
 
 export default function MemoriesPage() {

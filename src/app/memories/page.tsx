@@ -1,11 +1,6 @@
 import Link from "next/link";
-import Timeline from "../components/Timeline";
 import RomanticTimeline from "../components/RomanticTimeline";
-import HeartsBackground from "../components/HeartsBackground";
-import DeluxeRomanticTimeline from "../components/DeluxeRomanticTimeline";
-import LoveConfessionModal from "../components/LoveConfessionModal";
-import LetterMessage from "../components/LetterMessage";
-import ModalLetter from "../components/ModalLetter";
+
 
 export default function MemoriesPage() {
   return (
@@ -14,14 +9,12 @@ export default function MemoriesPage() {
       <div className="w-full max-w-2xl mx-auto">
         <h1 className="text-5xl md:text-6xl font-extrabold text-pink-600 text-center mb-8 drop-shadow-lg">
         Our Story So Far
-      </h1>
-      {/* <LetterMessage message="hello there "/> */}
-   
+      </h1>   
         <RomanticTimeline />
          {/* confettit<LoveConfessionModal/> */}
       </div>
       <>
-      {/* <><DeluxeRomanticTimeline/></> */}
+  
       </>
       <div className="mt-12">
         <Link

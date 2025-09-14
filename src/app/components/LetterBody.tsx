@@ -18,7 +18,7 @@ const LetterBody = () => {
     </a>
   </p>
   <p>
-    Let's keep writing our beautiful story, one unforgettable chapter at a time.
+    Let&apos;s keep writing our beautiful story, one unforgettable chapter at a time.
   </p>
   <p>
     Forever yours,<br />

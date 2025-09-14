@@ -1,8 +1,4 @@
 import Link from "next/link";
-import Timeline from "../components/Timeline";
-import RomanticTimeline from "../components/RomanticTimeline";
-import HeartsBackground from "../components/HeartsBackground";
-import DeluxeRomanticTimeline from "../components/DeluxeRomanticTimeline";
 import Gallery from "../components/GalleryComponent";
 
 export default function MemoriesPage() {
@@ -13,7 +9,6 @@ export default function MemoriesPage() {
         <h1 className="text-5xl md:text-6xl font-extrabold text-pink-600 text-center mb-8 drop-shadow-lg">
        Treasured Clicks
       </h1>
-    
         <Gallery/>
       </div>
     
@@ -22,7 +17,7 @@ export default function MemoriesPage() {
           href="/quiz"
           className="px-8 py-3 bg-pink-600 hover:bg-pink-700 transition text-white text-lg font-bold rounded-full shadow animate-bounce"
         >
-          Next: let's have fun →
+          Next: let&apos;s have fun →
         </Link>
       </div>
     </div>
