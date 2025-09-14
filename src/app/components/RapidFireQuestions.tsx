@@ -1,7 +1,5 @@
 'use client';
 import React, { useState } from 'react';
-import SecretQuizUnlock from './SecretMessageUnlock';
-import LoveConfessionModal from './LoveConfessionModal';
 
 const rapidFireQuestions = [
   "What was our most memorable date together?",

@@ -16,6 +16,9 @@ const images: string[] = [
   "/gallery/sleep.jpg",
   "/gallery/terrace.jpg",
   "/gallery/zing1.jpg",
+"/gallery/pinkpotato.jpg",
+"/gallery/vase.jpg",
+"/gallery/Kovil.png",
   // ...add more
 ];
 

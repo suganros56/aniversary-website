@@ -29,7 +29,7 @@ const SECRET_MESSAGE = (
       You did it! Because you remember all our precious moments, here’s my promise and your secret surprise:
       <br /><br />
       <LoveConfessionModal/>
-      <span className="text-pink-600 font-semibold">I love you forever—and I have something even more special for you today…</span>
+      <span className="text-pink-600 font-semibold">I love you forever bubliee, making all this made me relive all the beautiful memories</span>
       <br /><br />
       {/* You can put a poem, a video link, a future promise, or anything here! */}
       

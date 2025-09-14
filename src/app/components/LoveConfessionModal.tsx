@@ -27,7 +27,7 @@ const LoveConfessionModal: React.FC = () => {
             <div className="font-cursive text-2xl text-pink-700 mb-2">Happy Anniversary, My Love!</div>
             <div className="text-lg text-gray-600 mt-4 leading-relaxed" >
               <div className="flex justify-center items-center w-full">
-  <img src="/gallery/Kovil.png" width={300} height={100} className="mx-auto"/>
+  <img src="/gallery/tap.png" width={300} height={100} className="mx-auto"/>
 </div>
               <span className="font-semibold text-pink-600">You are my best story, my forever love. 💖</span>
             </div>

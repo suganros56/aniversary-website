@@ -10,7 +10,7 @@ export default function MemoriesPage() {
         <h1 className="text-5xl md:text-6xl font-extrabold text-pink-600 text-center mb-8 drop-shadow-lg">
         Urban square times....
       </h1>
-      <RingLetter message="It was a normal fun hangout date, but that particular moment will go deep in history, the moment i will cherish forever. The feeling after that instance sooo damn high, felt like i had atmost satisfaction that day i never felt before. "/>
+      <RingLetter message="It was a normal fun hangout date, but that particular moment will go deep in history, the precious moment that i will cherish forever. The feeling after that instance was sooo damn high, felt like I had the atmost satisfaction which i rarly feel. "/>
       </div>
   
       <div className="mt-12">

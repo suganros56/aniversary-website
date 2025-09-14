@@ -18,10 +18,20 @@ const dreams = [
     icon: "🎉",
     text: "Celebrate every little and big milestone as a team."
   },
+      {
+    icon: "🎶",
+    text: "Date nights and Dance night with you at our home."
+  },
+   {
+    icon: "🏠",
+    text: "Enjoy the slow sunday mornings."
+  },
   {
     icon: "❤️",
     text: "Always love fearlessly and endlessly, no matter what."
-  }
+  },
+
+
   // Add or customize your own dreams!
 ];
 
@@ -39,6 +49,11 @@ const Dreams: React.FC = () => (
       </ul>
       <div className="mt-10 text-center text-pink-700 font-semibold text-xl">
         Here’s to a lifetime of making all our dreams real together.
+        <br></br>
+        <br></br>
+        Once again Happy Anniversary darling!!!
+        <br></br>
+        I Love You the Most!!!!
       </div>
     </div>
     <style jsx>{`

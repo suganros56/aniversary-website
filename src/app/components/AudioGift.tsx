@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 
 // Change as needed
-const AUDIO_SRC = "/audio/my_promise_to_you.mp3";
+const AUDIO_SRC = "/audio/voicenote.opus";
 
 const EnvelopeAudioGift: React.FC = () => {
   const [opened, setOpened] = useState(false);
@@ -20,7 +20,7 @@ const EnvelopeAudioGift: React.FC = () => {
               ✉️
             </span>
             <span className="text-lg text-pink-600 font-semibold">
-              Tap to open your anniversary letter!
+              Tap to open your anniversary Note!
             </span>
           </button>
         </div>
@@ -29,7 +29,7 @@ const EnvelopeAudioGift: React.FC = () => {
           <span className="text-7xl mb-2">💌</span>
           <div className="text-xl font-bold text-pink-700 mt-2 mb-1 animate-fadeInDown">From My Heart To Yours</div>
           <div className="text-base text-gray-700 italic mb-4">
-            I poured my feelings into this—listen with love…
+            I poured my feelings into this listen with love…
           </div>
           <audio
             controls

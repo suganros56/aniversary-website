@@ -1,5 +1,5 @@
 import Link from "next/link";
-import RomanticTimeline from "../components/RomanticTimeline";
+import EnvelopeAudioGift from "../components/AudioGift";
 
 export default function MemoriesPage() {
   return (
@@ -7,9 +7,9 @@ export default function MemoriesPage() {
       
       <div className="w-full max-w-2xl mx-auto">
         <h1 className="text-5xl md:text-6xl font-extrabold text-pink-600 text-center mb-8 drop-shadow-lg">
-       Audio
+       For Your Ears Only
       </h1>
-  audio
+  <EnvelopeAudioGift/>
       </div>
       <>
       {/* <><DeluxeRomanticTimeline/></> */}
