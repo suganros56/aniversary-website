@@ -1,9 +1,6 @@
+
 import Link from "next/link";
-import Timeline from "../components/Timeline";
-import RomanticTimeline from "../components/RomanticTimeline";
-import HeartsBackground from "../components/HeartsBackground";
-import DeluxeRomanticTimeline from "../components/DeluxeRomanticTimeline";
-import Gallery from "../components/GalleryComponent";
+import RapidFireQuestions from "../components/RapidFireQuestions";
 
 export default function MemoriesPage() {
   return (
@@ -11,18 +8,17 @@ export default function MemoriesPage() {
       
       <div className="w-full max-w-2xl mx-auto">
         <h1 className="text-5xl md:text-6xl font-extrabold text-pink-600 text-center mb-8 drop-shadow-lg">
-       Treasured Clicks
+        Our Story So Far
       </h1>
-    
-        <Gallery/>
+<RapidFireQuestions/>
       </div>
-    
+  
       <div className="mt-12">
         <Link
-          href="/quiz"
+          href="/audio"
           className="px-8 py-3 bg-pink-600 hover:bg-pink-700 transition text-white text-lg font-bold rounded-full shadow animate-bounce"
         >
-          Next: let's have fun →
+          Next: audio →
         </Link>
       </div>
     </div>

@@ -97,7 +97,7 @@ const RingMoment: React.FC = () => {
 
       {/* Caption */}
       <div className="text-center text-gray-700 mt-6 text-lg font-medium italic px-2">
-        The moment I put the ring on your hand—sealed with love, for all our days together.
+        The moment I put the ring on your hand the amount of joy I had can't be explained in words or in any language.
       </div>
     </div>
   );

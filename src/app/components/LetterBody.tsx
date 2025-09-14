@@ -5,11 +5,10 @@ const LetterBody = () => {
     <>
     <div className="text-gray-700 leading-relaxed space-y-4 font-serif text-lg">
   <p>
-    Happy 2nd Love Anniversary, my sunshine! Two years ago, destiny smiled on me when our stories met.
-    Every day since, you have brought laughter, color, and magic into my world.
+    Happy 2nd Love Anniversary, my sunshine! Two years ago, a perfect moment in a Indie Frost that will always hold the memory of our new beginning.
   </p>
   <p>
-    As we celebrate these two incredible years, my heart feels full thinking about our <span className="font-semibold text-pink-600">journey</span> so far—the adventures, lessons, and all the new dreams we've found together.
+    As we celebrate these two incredible years, my heart feels full thinking about our <span className="font-semibold text-pink-600">journey</span> so far—the <span className="font-semibold text-pink-600">dates</span> , <span className="font-semibold text-pink-600">convos</span>, <span className="font-semibold text-pink-600">drama</span>,  <span className="font-semibold text-pink-600">hugs</span>, <span className="font-semibold text-pink-600">kisses</span>, <span className="font-semibold text-pink-600">lessons</span>, and all the new dreams we've found together.
     Want to relive our special moments?  
     <a
       href="/memories"

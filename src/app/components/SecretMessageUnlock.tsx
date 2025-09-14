@@ -1,23 +1,24 @@
 'use client';
 import React, { useState } from "react";
+import LoveConfessionModal from "./LoveConfessionModal";
 
 // Fill in your personalized quiz!
 const QUIZ = [
   {
-    question: "What is the name of the cafe where we had our first date?",
-    answer: "amethyst",
+    question: "What is the name of the cafe where we had our first proper date?",
+    answer: "sage and lavender",
   },
   {
-    question: "Which movie did we rewatch together three times? (one word, lowercase)",
-    answer: "kimi",
+    question: "what is the first thing I notice about you",
+    answer: "eyes",
   },
   {
-    question: "My nickname for you based on your WhatsApp dp on 2022-03-12?",
-    answer: "sunflower",
+    question: "what's is the occasion on october 4th?",
+    answer: "second kiss",
   },
   {
-    question: "What is the city of our first outstation trip?",
-    answer: "pondicherry",
+    question: "Best live drama we watched together? where and what",
+    answer: "semmozhi poonga",
   },
 ];
 
@@ -27,9 +28,11 @@ const SECRET_MESSAGE = (
     <div className="text-lg text-gray-600 mt-4 leading-relaxed">
       You did it! Because you remember all our precious moments, here’s my promise and your secret surprise:
       <br /><br />
+      <LoveConfessionModal/>
       <span className="text-pink-600 font-semibold">I love you forever—and I have something even more special for you today…</span>
       <br /><br />
       {/* You can put a poem, a video link, a future promise, or anything here! */}
+      
     </div>
   </div>
 );

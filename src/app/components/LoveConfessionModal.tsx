@@ -16,7 +16,8 @@ const LoveConfessionModal: React.FC = () => {
       {open && (
         <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-60">
           <Confetti width={window.innerWidth} height={window.innerHeight} numberOfPieces={300} />
-          <div className="bg-white rounded-3xl p-10 max-w-md mx-auto shadow-2xl border-4 border-pink-400 relative animate__animated animate__fadeInDown">
+          <div className="bg-white rounded-3xl p-10 max-w-md mx-auto shadow-2xl border-4 border-pink-400 relative animate__animated animate__fadeInDown overflow-y-auto max-h-[80vh]">
+
             <button
               className="absolute top-3 right-4 text-pink-400 text-2xl"
               onClick={() => setOpen(false)}
@@ -24,9 +25,11 @@ const LoveConfessionModal: React.FC = () => {
               ×
             </button>
             <div className="font-cursive text-2xl text-pink-700 mb-2">Happy Anniversary, My Love!</div>
-            <div className="text-lg text-gray-600 mt-4 leading-relaxed">
-              Every day with you is my dream come true. Thank you for making my world beautiful. I can't wait for all our future adventures together!<br /><br />
-              <span className="font-semibold text-pink-600">You are my best story, my forever Valentine. 💖</span>
+            <div className="text-lg text-gray-600 mt-4 leading-relaxed" >
+              <div className="flex justify-center items-center w-full">
+  <img src="/gallery/Kovil.png" width={300} height={100} className="mx-auto"/>
+</div>
+              <span className="font-semibold text-pink-600">You are my best story, my forever love. 💖</span>
             </div>
             <div className="mt-6 text-center w-full">
               <span className="inline-block text-4xl animate-bounce">🥹💕</span>
